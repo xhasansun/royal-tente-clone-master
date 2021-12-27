@@ -1,0 +1,45 @@
+@media (max-width: 992px) {
+
+    .product-slider{
+
+        .product-item-area{
+            margin-bottom: 20px;
+
+            .slider-prev{
+                visibility: hidden;
+            }
+    
+            .slide-next{
+                visibility: hidden;
+            }
+        }
+    }
+
+    .quality-certificates{
+        .e3{
+            display: none;
+        }
+    }
+
+    footer {
+        .container {
+            .links {
+                padding: 20px 0;
+                .link {
+                    display: block !important;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) { 
+    .items{
+        display: flex;
+        flex-direction: row;
+    }
+    .s2{
+        display: none;
+    }
+ }

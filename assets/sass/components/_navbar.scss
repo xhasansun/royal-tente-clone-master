@@ -1,0 +1,90 @@
+.border-red {
+    border-bottom: 2px solid red;
+    .container {
+        nav {
+            .container-fluid {
+                .navbar-brand {
+                    img {
+                        height: 48px;
+                        width: 100px;
+                    }
+                }
+
+                .navbar-toggler {
+                    outline: none !important;
+                    border: none;
+                    background: $grey-color;
+                    border-radius: 0;
+                }
+
+                .navbar-nav {
+                    .nav-item {
+                        padding: 10px;
+                        .nav-link {
+                            color: $white-color;
+                            font-weight: 700;
+                            &:hover {
+                                color: red;
+                                transition: ease 0.5s;
+                            }
+                        }
+                        .dropdown-toggle::after {
+                            display: none;
+                        }
+                    }
+                    .dropdown-divider {
+                        color: $white-color;
+                    }
+
+                    .dropdown-menu{
+                        border-radius: 0;
+                        li{
+                            a{
+                                color: $white-color;
+                                font-weight: 700;
+                                &:hover{
+                                    color: red;
+                                    transition: ease 0.5s;
+                                    background: none;
+                                }
+                            }
+                        }
+                    }
+
+                    .dropdown:hover .dropdown-menu {
+                        display: block;
+                        margin-top: 0px;
+                        background: $grey-color;
+                        
+                     }
+                }
+
+                .right-icons {
+                    list-style: none;
+                    li {
+                        margin: -5px;
+                        :last-child {
+                            &:hover {
+                                color: red;
+                                transition: ease 0.5s;
+                            }
+                        }
+                        a {
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+}
+
+@media (max-width: 992px) {
+    .right-icons {
+        position: absolute;
+        right: calc(100% - 82%);
+        top: 22px;
+
+    }
+
+}

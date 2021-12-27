@@ -1,0 +1,59 @@
+.photo-gallery {
+    .container-fluid {
+        .container {
+
+            h4{
+                color: $white-color;
+                font-size: 18px;
+            }
+            .red-line{
+                margin-top: 14px;
+                border-top: 1px solid red;
+            }
+
+            .image-wrapper{
+                position: relative;
+
+                .prev{
+                    position: absolute;
+                    top: 80px;
+                    left: 10px;
+                    background-color: $grey-color;
+
+                    i{
+                        color: $white-color;
+                    }
+
+                    &:hover{
+                        background-color: $white-color;
+                        transition: ease .5s;
+                        i{
+                            color: red;
+                            transition: ease .5s;
+                        }
+                    }
+                }
+
+                .next{
+                    position: absolute;
+                    top: 80px;
+                    right: 10px;
+                    background-color: $grey-color;
+
+                    i{
+                        color: $white-color;
+                    }
+
+                    &:hover{
+                        background-color: $white-color;
+                        transition: ease .5s;
+                        i{
+                            color: red;
+                            transition: ease .5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+@media (max-width: 992px) {
+    .who-we-are{
+
+        .about-item{
+            
+            .content-wrapper{
+                width: 100% !important;
+                margin-top: 300px;
+                border-right: none !important;
+                border-top: 2px solid red;
+            }
+
+            .wrapper-2{
+                border-left: none !important;
+                border-top: 2px solid red;
+            }
+        }
+    }
+
+    .icon-wrapper, .icon-wrapper-2{
+        visibility: hidden;
+    }
+}

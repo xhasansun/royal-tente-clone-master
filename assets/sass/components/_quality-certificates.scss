@@ -1,0 +1,52 @@
+.quality-certificates {
+    .container {
+        padding-bottom: 88px;
+
+        .logo {
+            height: 50px;
+            width: 150px;
+            border-right: 1px solid rgba(255, 255, 255, 0.4);
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+
+            img {
+                height: 50px;
+                width: 80px;
+                position: relative;
+            }
+        }
+
+        .first-item {
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(40px);
+            &:hover {
+                background: $white-color;
+                transition: ease 1s;
+                span {
+                    color: $red-color;
+                    transition: ease 1s;
+                }
+            }
+        }
+
+        .last-item {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(40px);
+            &:hover {
+                background: $white-color;
+                transition: ease 1s;
+                span {
+                    color: $red-color;
+                    transition: ease 1s;
+                }
+            }
+        }
+    }
+}

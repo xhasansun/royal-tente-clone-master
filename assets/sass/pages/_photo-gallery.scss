@@ -1,0 +1,28 @@
+
+@media (max-width: 992px) {
+
+    .image-wrapper{
+
+        .product-image{
+            padding-bottom: 15px;
+        }
+
+        .button{
+            visibility: hidden;
+        }
+    }
+
+    footer {
+        .container {
+            .links {
+                padding: 20px 0;
+                .link {
+                    display: block !important;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+

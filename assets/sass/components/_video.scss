@@ -1,0 +1,39 @@
+.vide-gallery{
+    padding-bottom: 200px;
+    .container-fluid{
+
+        .container{
+
+            .video-wrapper{
+                position: relative;
+                padding-bottom: 20px;
+                .product-video{
+                    position: relative;
+                }
+
+                .play-button{
+                    width: 65px;
+                    height: 65px;
+                    position: absolute;
+                    background: rgba(0, 0, 0, 0.7);
+                    border-radius: 50%;
+                    left: calc(100% - 60%);
+                    top: calc(100% - 65%);
+                    &:hover{
+                        cursor: pointer;
+                    }
+                    
+
+
+                    i{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding-top: 25px;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
